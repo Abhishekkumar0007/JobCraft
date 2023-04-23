@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from 'react'
 import Navbar from '../component/Navbar'
 import Header from '../component/Header'
