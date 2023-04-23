@@ -41,7 +41,7 @@ let duration = days(date_1, date_2);
                     <Box>
 
                        
- {duration > 21 ? <Brightness1RoundedIcon sx={{ color: "green" }}/>:  <Brightness1RoundedIcon sx={{ color: "yellow" }}/> } 
+ {duration > 21 ? <Brightness1RoundedIcon sx={{ color: "green" }}/>: duration < 14 ? <Brightness1RoundedIcon sx={{ color: "yellow" }}/> : <Brightness1RoundedIcon sx={{ color: "red" }}/> } 
 
 </Box>
 </Box>
